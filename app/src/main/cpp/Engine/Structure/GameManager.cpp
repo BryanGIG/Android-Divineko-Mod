@@ -1,9 +1,5 @@
 #include "../Includes.hpp"
 
-
-uintptr_t isTrailer;
-uintptr_t displayCheatButtons;
-
 void (*ApplyPlayerLoadedValues)(GameManager *, PlayerData *data);
 
 void new_ApplyPlayerLoadedValues(GameManager *self, PlayerData *data) {
