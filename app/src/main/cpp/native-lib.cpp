@@ -18,7 +18,8 @@ void lib_main() {
         }
 
         // Initialize the classes
-        ListCBaseEntry::add(std::make_shared<ExampleEntry>());
+        ListCBaseEntry::add(std::make_shared<GameManager>());
+        ListCBaseEntry::add(std::make_shared<PlayerData>());
         ListCBaseEntry::Initialize();
     }).detach();
 }
